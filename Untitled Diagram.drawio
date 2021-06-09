@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T04:52:10.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="NY-w21pbQis-jDRh7__o" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T05:07:25.844Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="km_xQxzp8-uy71wARtw4" version="14.7.6" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1631" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-37" value="&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;BranchA&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;unit tested and ready to merge&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="30" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-105" value="&lt;span style=&quot;font-size: 12px&quot;&gt;QA Signs-off, ready for Stage deployment&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="50" y="1700" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Dev" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="240" y="20" width="240" height="2180" as="geometry" />
@@ -113,34 +116,34 @@
             <mxPoint x="127" y="1230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-83" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Generate Artifact &lt;br&gt;(RAP file -&amp;gt; Development Repo)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="22" y="1390" width="210" height="60" as="geometry" />
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-103" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-83" target="r2t7VLkCKEOsb-qf5IEj-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-83" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Generate Artifact &lt;br&gt;(RAP file -&amp;gt; Development Repo)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;b&gt;This RAP now holds both 01-02-01 AND 01-02-02 version&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="20" y="1390" width="218" height="90" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-78" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;&amp;lt; Deployment Pipeline Initiated &amp;gt;&lt;font color=&quot;#3333ff&quot; style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;Deployment #14&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-79" target="r2t7VLkCKEOsb-qf5IEj-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-83">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="1470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-94" value="&lt;b&gt;&lt;font face=&quot;Verdana&quot;&gt;&amp;lt;&amp;nbsp;&lt;font color=&quot;#3333ff&quot;&gt;Deployment #14&lt;/font&gt;&amp;nbsp;pauses &lt;br&gt;awaiting manual resumption &amp;gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="20" y="1601" width="220" height="30" as="geometry" />
+          <mxGeometry x="21" y="1631" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.485;entryY=-0.124;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" target="r2t7VLkCKEOsb-qf5IEj-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="1591" as="targetPoint" />
-            <mxPoint x="127" y="1571" as="sourcePoint" />
+            <mxPoint x="128" y="1621" as="targetPoint" />
+            <mxPoint x="128" y="1601" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-97" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;&amp;lt; Standard post deployment&amp;nbsp;steps &amp;gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="-3" y="1550" width="260" height="20" as="geometry" />
+          <mxGeometry x="2" y="1580" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-99" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.503;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-98" target="r2t7VLkCKEOsb-qf5IEj-97">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-99" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="1580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-98" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Deploys Artifact to Test env&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="22" y="1470" width="210" height="50" as="geometry" />
+          <mxGeometry x="27" y="1512" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Jenkins" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="742" y="20" width="240" height="2180" as="geometry" />
@@ -155,25 +158,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-56" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Application version deployed&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="15" y="810" width="210" height="60" as="geometry" />
+          <mxGeometry x="15" y="890" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" source="r2t7VLkCKEOsb-qf5IEj-57" target="r2t7VLkCKEOsb-qf5IEj-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-57" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Manually update access groups,&amp;nbsp;&lt;br&gt;if not part of Product rule&lt;br&gt;&amp;lt;&amp;lt;Only needed for first deployment&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="15" y="890" width="210" height="60" as="geometry" />
+          <mxGeometry x="15" y="970" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-58" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Manual QA testing&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="15" y="968" width="210" height="50" as="geometry" />
+          <mxGeometry x="15" y="1048" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-93" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Manual QA testing&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="15" y="1540" width="210" height="50" as="geometry" />
+          <mxGeometry x="15" y="1590" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-100" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-6" source="r2t7VLkCKEOsb-qf5IEj-90" target="r2t7VLkCKEOsb-qf5IEj-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-90" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Application version deployed&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
-          <mxGeometry x="15" y="1460" width="210" height="60" as="geometry" />
+          <mxGeometry x="15" y="1510" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Stage" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1222" y="20" width="240" height="2180" as="geometry" />
