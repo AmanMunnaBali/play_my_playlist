@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T02:19:30.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="FVtmILVaIVGQLm9sTGdH" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T03:12:47.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="HHcWofbbDZYtTK_ejmiN" version="14.7.6" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1662" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="PDM Utilization Flow" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="1680" height="870" as="geometry" />
+          <mxGeometry x="80" y="40" width="1680" height="1510" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="Event" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="240" height="850" as="geometry" />
+          <mxGeometry y="20" width="240" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Initial version of &lt;br&gt;DMSample app is &lt;br&gt;in Production&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="40" y="40" width="140" height="60" as="geometry" />
@@ -16,43 +16,76 @@
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-32" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Next PI/ Release candidate starts&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="40" y="180" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-37" value="&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;BranchA&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;unit tested and ready to merge&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Dev" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="240" y="20" width="240" height="850" as="geometry" />
+          <mxGeometry x="240" y="20" width="240" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-25" value="&lt;span style=&quot;font-size: 12px&quot;&gt;DMSample 01.01.01&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-33" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Application version-&lt;/b&gt;&lt;br&gt;DMSample 01.02.01&lt;br&gt;&lt;b&gt;Rulesets-&lt;/b&gt; DMSample:01-02-01&lt;br&gt;DMSampleInt:01-02-01&lt;br&gt;&lt;b&gt;Product rule&lt;/b&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;DMSample:01-02-01 (references app, with delta specified)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Branches&lt;/b&gt; - BranchA / BranchB (per functionality)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-33" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Application version-&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;DMSample 01.02.01&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;b&gt;Rulesets-&lt;/b&gt; &lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;DMSample:01-02-01&lt;br&gt;DMSampleInt:01-02-01&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;b&gt;Product rule&lt;/b&gt;-&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;DMSample:01-02-01 &lt;/b&gt;&lt;/font&gt;(references app, with delta specified)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Branches&lt;/b&gt; - &lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;BranchA / BranchB&lt;/b&gt;&lt;/font&gt; (per functionality)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="20" y="120" width="200" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="r2t7VLkCKEOsb-qf5IEj-38" target="r2t7VLkCKEOsb-qf5IEj-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-38" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Create ruleset version&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;01-02-01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;(will already exist in case of first branch)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="50" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-40" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Review code and Initiate Merge (automatic)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="50" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-4" value="PDM" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="480" y="20" width="240" height="850" as="geometry">
+          <mxGeometry x="480" y="20" width="240" height="1490" as="geometry">
             <mxRectangle x="320" y="20" width="30" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-35" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Update Product rule Deployment Pipeline to DMSample 01-02-01&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="30" y="170" width="160" height="60" as="geometry" />
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-35" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Update Product rule Deployment Pipeline to &lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;DMSample 01-02-01&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="40" y="170" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-36" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Merge pipeline and Deployment pipeline exists for app&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-39" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Checks Branch Guardrails&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="50" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-41" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Checks Review Status (optional)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="50" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-43" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Merge&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;BranchA -&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;01-02-01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="40" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-42" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Check Merge conflicts&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="50" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-44" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Generate Artifact &lt;br&gt;(RAP file -&amp;gt; Development Repo)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="20" y="670" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-45" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Deploys Artifact to Test env&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="20" y="750" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-47" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="20" y="820" width="210" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Jenkins" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="720" y="20" width="240" height="850" as="geometry" />
+          <mxGeometry x="720" y="20" width="240" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Test" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="960" y="20" width="240" height="850" as="geometry" />
+          <mxGeometry x="960" y="20" width="240" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-29" value="&lt;span style=&quot;font-size: 12px&quot;&gt;DMSample 01.01.01&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Stage" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1200" y="20" width="240" height="850" as="geometry" />
+          <mxGeometry x="1200" y="20" width="240" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-30" value="&lt;span style=&quot;font-size: 12px&quot;&gt;DMSample 01.01.01&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
           <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-14" value="Prod" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1440" y="20" width="240" height="850" as="geometry" />
+          <mxGeometry x="1440" y="20" width="240" height="1490" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-31" value="&lt;span style=&quot;font-size: 12px&quot;&gt;DMSample 01.01.01&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="r2t7VLkCKEOsb-qf5IEj-14">
           <mxGeometry x="40" y="40" width="160" height="60" as="geometry" />
