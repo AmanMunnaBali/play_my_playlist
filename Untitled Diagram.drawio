@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T15:01:14.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="5gkexBprRObUR8pxOL12" version="14.7.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-11T16:23:09.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xR2L51U1MqfO3qpVU2-T" version="14.7.7" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2163" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2059" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-44" target="r2t7VLkCKEOsb-qf5IEj-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-44" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Generate Artifact &lt;br&gt;(RAP file -&amp;gt; Development Repo)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-44" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Generate Artifact &lt;br&gt;(RAP file -&amp;gt; Development Repo)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(51 , 51 , 255) ; font-size: 12px&quot;&gt;DMSample 01.02.01&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;call out product&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="112" y="1041" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xMi18xci5wmyxIyWrV37-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-4" source="r2t7VLkCKEOsb-qf5IEj-45" target="xMi18xci5wmyxIyWrV37-34">
@@ -310,7 +310,7 @@
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-134" value="DEV Repo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="60" y="1849" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r2t7VLkCKEOsb-qf5IEj-137" value="DEV Repo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="77e6c97f196da883-5" vertex="1">
+        <mxCell id="r2t7VLkCKEOsb-qf5IEj-137" value="DEV Repo&lt;br&gt;Repo name**&lt;br&gt;Zip file name**&lt;br&gt;Conversation about which repo?&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="50" y="1046" width="120" height="64" as="geometry" />
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-140" value="DEV Repo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="77e6c97f196da883-5" vertex="1">
@@ -508,7 +508,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AHtal8CNGLgLo0w9cs8j" name="Page-2">
-    <mxGraphModel dx="1274" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pI7jO923tvdXvugDY2WO-0" />
         <mxCell id="pI7jO923tvdXvugDY2WO-1" parent="pI7jO923tvdXvugDY2WO-0" />
