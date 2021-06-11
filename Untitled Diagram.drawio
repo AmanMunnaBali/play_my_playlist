@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T16:40:19.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="QsqKyKM_oLeCAjz11eB7" version="14.7.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-11T16:45:16.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="07Jhp0H1VSwR86xNDydk" version="14.7.7" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2917" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -304,6 +304,9 @@
             <mxPoint x="1400" y="1581" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="P5lVTagKG95dKvzGVTQC-2" value="RCA final check&lt;br&gt;Checks Precheck steps and get the approvals" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="125" y="3330" width="260" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-5" value="External systems (Jenkins/ Repository)" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="960" y="20" width="240" height="4020" as="geometry" />
         </mxCell>
@@ -474,8 +477,8 @@
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-167" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="3360" as="sourcePoint" />
-            <mxPoint x="2000" y="3360" as="targetPoint" />
+            <mxPoint x="90" y="3360" as="sourcePoint" />
+            <mxPoint x="2010" y="3360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r2t7VLkCKEOsb-qf5IEj-175" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="r2t7VLkCKEOsb-qf5IEj-169" edge="1">
@@ -504,8 +507,8 @@
         <mxCell id="xMi18xci5wmyxIyWrV37-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xMi18xci5wmyxIyWrV37-11" target="xMi18xci5wmyxIyWrV37-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QxnJk_w4mPK6ViEMYTKM-1" value="RCA Pre test" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="790" y="3310" width="80" height="20" as="geometry" />
+        <mxCell id="P5lVTagKG95dKvzGVTQC-1" value="RCA Precheck&lt;br&gt;Checks for Rally setup (syntax - milestone/ test cases passed etc)&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="3005" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
